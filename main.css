@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  height: 100vh;
+  width: 600px;
+}
+
+.bg-animation {
+  width: 600px;
+  height: 300px;
+  box-shadow: 2px 3px 19px rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+  animation: bganimation 12s linear infinite;
+}
+
+@keyframes bganimation {
+  0% {
+    background-image: url(./i1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  30% {
+    background-image: url(./i2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  60% {
+    background-image: url(./i3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-image: url(./i4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+/*  */
+/*    */
+/* @keyframes bganimation { */
+/* 0% { */
+/* background-image: url(./i1.jpg); */
+/* background-size: cover; */
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+/* } */
+/* 25% { */
+/* background-image: url(./i1.jpg); */
+/* background-size: cover; */
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+/* } */
+/* 25.01% { */
+/* background-image: url(./i2.jpg); */
+/* background-size: cover; */
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+/* } */
+/* 50% { */
+/* background-image: url(./i2.jpg); */
+/* background-size: cover; */
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+/* } */
+/* 50.01% { */
+/* background-image: url(./i3.jpg); */
+/* background-size: cover; */
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+/* } */
+/* 75% { */
+/* background-image: url(./i3.jpg); */
+/* background-size: cover; */
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+/* } */
+/* 75.01% { */
+/* background-image: url(./i4.jpg); */
+/* background-size: cover; */
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+/* } */
+/* 100% { */
+/* background-image: url(./i4.jpg); */
+/* background-size: cover; */
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+/* } */
+/* } */
